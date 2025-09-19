@@ -4,14 +4,14 @@ A polished macOS desktop expense tracker built with PySide6 (Qt for Python), SQL
 
 ## Features
 
-### ✅ Implemented (MVP)
+### Implemented (MVP)
 - **Dashboard**: Key metrics (income/expense/net) with category bar chart and daily net trend chart
 - **Transactions**: Full CRUD operations with advanced filtering (date range, category, account, type, search)
 - **Database**: SQLite with SQLAlchemy ORM, repository pattern, and sample data seeding
 - **UI**: Modern sidebar navigation with month selector and responsive design
 - **Styling**: Professional light theme with dark theme support
 
-### 🚧 TODO (Stretch Items)
+###  TODO (Stretch Items)
 - **Categories**: CRUD operations with color picker and hierarchical categories
 - **Budgets**: Monthly spending limits with progress bars and warnings
 - **Import/Export**: CSV import wizard with column mapping and export functionality
@@ -26,30 +26,30 @@ ledgerlite/
 │   └── ui/
 │       ├── main_window.py # Main window with sidebar navigation
 │       ├── pages/         # Application pages
-│       │   ├── dashboard_page.py      # ✅ Dashboard with KPIs and charts
-│       │   ├── transactions_page.py   # ✅ Transactions management
-│       │   ├── categories_page.py     # 🚧 Categories management
-│       │   ├── budgets_page.py        # 🚧 Budgets management
-│       │   └── import_export_page.py  # 🚧 CSV import/export
+│       │   ├── dashboard_page.py      
+│       │   ├── transactions_page.py   
+│       │   ├── categories_page.py     
+│       │   ├── budgets_page.py        
+│       │   └── import_export_page.py 
 │       └── widgets/
-│           └── transaction_form.py    # ✅ Transaction add/edit dialog
-├── charts/                # Matplotlib chart widgets
-│   ├── category_bar.py    # ✅ Category expense bar chart
-│   └── monthly_trend.py   # ✅ Daily net amount line chart
-├── data/                  # Database layer
-│   ├── models.py          # ✅ SQLAlchemy models
-│   ├── db.py              # ✅ Database connection management
-│   ├── repo.py            # ✅ Repository pattern implementation
-│   └── seed.py            # ✅ Sample data seeding
-├── services/              # Business logic services
-├── utils/                 # Utility functions
+│           └── transaction_form.py    
+├── charts/                
+│   ├── category_bar.py   
+│   └── monthly_trend.py  
+├── data/                  
+│   ├── models.py          
+│   ├── db.py              
+│   ├── repo.py            
+│   └── seed.py            
+├── services/             
+├── utils/                 
 ├── assets/
-│   └── styles.qss         # ✅ Application styling
-├── tests/                 # Test suite
+│   └── styles.qss         
+├── tests/                 
 ├── scripts/
-│   ├── dev_run.sh         # ✅ Development environment setup
-│   └── package_mac.sh     # ✅ macOS packaging script
-└── pyproject.toml         # ✅ Project configuration
+│   ├── dev_run.sh         
+│   └── package_mac.sh     
+└── pyproject.toml         
 ```
 
 ## Data Model
